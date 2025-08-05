@@ -1,0 +1,6 @@
+{
+  "kaynak_klasor": "C:\\Users\\gmznu\\desktop\\kaynak_klasor",
+  "hedef_klasor": "C:\\Users\\gmznu\\desktop\\hedef_klasor",
+  "saklama_gunu": 7,
+  "dislama_listesi": ["*.tmp", "*.log", "cache"] 
+}
