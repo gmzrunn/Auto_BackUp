@@ -1,6 +1,6 @@
 {
-  "kaynak_klasor": "C:\\Users\\senin dosya uzantın", 
-  "hedef_klasor": "C:\\Users\\senin dosya uzantın",
-  "saklama_gunu": 7,
+  "kaynak_klasor": "C:\\Users\\gmznu\\desktop\\kaynak_klasor",
+  "hedef_klasor": "C:\\Users\\gmznu\\desktop\\hedef_klasor",
+  "saklama_gunu": 5,
   "dislama_listesi": ["*.tmp", "*.log", "cache"] 
 }

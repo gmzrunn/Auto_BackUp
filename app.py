@@ -29,10 +29,9 @@ class BackupManager:
     #Yedekleme ve temizleme işlemlerini yöneten ana sınıf
 
     def __init__(self, config):
-        """Konfigürasyon ayarlarını başlatır."""
         self.kaynak_klasor = config.get("kaynak_klasor")
         self.hedef_klasor = config.get("hedef_klasor")
-        self.saklama_gunu = config.get("saklama_gunu", 7)
+        self.saklama_gunu = config.get("saklama_gunu", 5)
         self.dislama_listesi = config.get("dislama_listesi", [])
 
         if not self.kaynak_klasor or not self.hedef_klasor:
@@ -40,7 +39,7 @@ class BackupManager:
             exit()
     
     def _send_notification(self, title, message):
-        """Masaüstü bildirimi gönderir."""
+        #Masaüstü bildirimi gönderir
         try:
             notification.notify(
                 title=title,
